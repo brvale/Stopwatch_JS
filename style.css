@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+
+    height: 100vh;
+    
+    background-color: rgb(212, 140, 6);
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    border-bottom: 2px solid white;
+    margin-bottom: 5vh;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1vh;
+}
+
+p {
+    font-size: 3vh;
+}
